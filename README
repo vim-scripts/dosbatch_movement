@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4004
+
+DESCRIPTION
+This filetype plugin provides movement commands and text objects for MSDOS
+batch file functions and labels.
+
+USAGE
+                        Move around MSDOS batch file functions / labels.
+                        A new section is also defined by a comment starting with
+                        ::- or ::= or ::*.
+]m                      Go to [count] next start of a function / label.
+]M                      Go to [count] next end of a function / label.
+[m                      Go to [count] previous start of a function / label.
+[M                      Go to [count] previous end of a function / label.
+
+im                      "inner method" text object, select [count] function /
+                        label contents.
+am                      "a method" text object, select [count] function / label,
+                        including the function / label definition and end.
